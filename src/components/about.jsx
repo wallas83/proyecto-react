@@ -16,6 +16,24 @@ export const About = () => {
                     </div>
                 </div>
             </div>
+            {/* company stats */}
+            <div className='px-4 max-w-screen-2xl mx-auto bg-neutralSilver py-16'>
+                <div>
+                    <div className='md:w-1/2'>
+                        <h2 className='text-4xl text-neutralDGrey font-semibold mb-4 md:w-2/3'>Helping a local <br />
+                            <span className='text-brandPrimary'>business reinvent itself</span></h2>
+                        <p className='md:w-3/4 text-sm text-neutralGrey mb-8'>We reached here with our hard work and dedication</p>
+                    </div>
+                    {/* stats */}
+
+                    <div>
+                            <div>
+                                
+                            </div>
+                    </div>
+                </div>
+
+            </div>
         </section>
     )
 }
