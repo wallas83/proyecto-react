@@ -1,5 +1,6 @@
 import { Carousel } from 'flowbite-react';
-import banner1 from '../assets/banner1.png'
+
+import banner1 from '@assets/about1.png';
 export const Home = () => {
     return (
         <div className="bg-neutralSilver" id='home'>

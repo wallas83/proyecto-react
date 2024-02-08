@@ -1,4 +1,10 @@
-import aboutBanner from '../assets/about1.png'
+
+import aboutBanner from '@assets/about1.png';
+import iconMembers from '@assets/logoLocal/Icon_members.png';
+import iconBoking from '@assets/logoLocal/Icon_boking.png';
+import iconClubs from '@assets/logoLocal/Icon_clubs.png';
+import iconPayment from '@assets/logoLocal/Icon_payment.png';
+
 import { Product } from './product'
 
 export const About = () => {
@@ -20,14 +26,14 @@ export const About = () => {
                     <div className='flex flex-wrap gap-8 gap-x-16 justify-center'>
                         <div className='space-y-8'>
                             <div className='flex items-center gap-4'>
-                                <img src='/src/assets/logoLocal/Icon_members.png' alt='logo de members' />
+                                <img src={iconMembers} alt='logo de members' />
                                 <div>
                                     <h4 className='text-2xl text-neutralDGrey font-semibold'>2,245,341</h4>
                                     <p className='text-neutralGrey'>Members</p>
                                 </div>
                             </div>
                             <div className='flex items-center gap-4'>
-                                <img src='/src/assets/logoLocal/Icon_boking.png' alt='logo de members' />
+                                <img src={iconBoking} alt='logo de members' />
                                 <div>
                                     <h4 className='text-2xl text-neutralDGrey font-semibold'>828,867</h4>
                                     <p className='text-neutralGrey'>Event Bokings</p>
@@ -38,14 +44,14 @@ export const About = () => {
                         <div className='space-y-8'>
 
                             <div className='flex items-center gap-4'>
-                                <img src='/src/assets/logoLocal/Icon_clubs.png' alt='logo de members' />
+                                <img src={iconClubs} alt='logo de members' />
                                 <div>
                                     <h4 className='text-2xl text-neutralDGrey font-semibold'>46,304</h4>
                                     <p className='text-neutralGrey'>Clubs</p>
                                 </div>
                             </div>
                             <div className='flex items-center gap-4'>
-                                <img src='/src/assets/logoLocal/Icon_payment.png' alt='logo de members' />
+                                <img src={iconPayment} alt='logo de members' />
                                 <div>
                                     <h4 className='text-2xl text-neutralDGrey font-semibold'>1,926,343</h4>
                                     <p className='text-neutralGrey'>Payments</p>

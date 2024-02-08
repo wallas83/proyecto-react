@@ -1,8 +1,8 @@
 
 import { Footer } from 'flowbite-react';
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
+import logo from '@assets/icon.png';
 
-import logo from '../assets/icon.png';
 export const FooterOther = () => {
     return (
         <Footer container id='faq' >
