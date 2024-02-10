@@ -1,20 +1,31 @@
 
+import comunity from '@assets/logoCompany/comunity.png';
+import building from '@assets/logoCompany/comunity.png';
+import friendship from '@assets/logoCompany/comunity.png';
+// imgs de companies
+import Logocompany1 from '@assets/logoCompany/Logocompany1.png';
+import Logocompany2 from '@assets/logoCompany/Logocompany2.png';
+import Logocompany3 from '@assets/logoCompany/Logocompany3.png';
+import Logocompany4 from '@assets/logoCompany/Logocompany4.png';
+import Logocompany5 from '@assets/logoCompany/Logocompany5.png';
+import Logocompany6 from '@assets/logoCompany/Logocompany6.png';
+import Logocompany7 from '@assets/logoCompany/Logocompany7.png';
 export const Services = () => {
     const services = [
         {
             id: 1, title: "Membership Organisations",
             description: "Our membership management software provides full automation of membership renewals and payments",
-            image: '/src/assets/logoCompany/comunity.png'
+            image: comunity
         },
         {
             id: 2, title: "National Associations",
             description: "Our membership management software provides full automation of membership renewals and payments",
-            image: '/src/assets/logoCompany/building.png'
+            image: building
         },
         {
             id: 3, title: "Clubs And Groups",
             description: "Our membership management software provides full automation of membership renewals and payments",
-            image: '/src/assets/logoCompany/friendship.png'
+            image: friendship
         }
     ]
     return (
@@ -24,13 +35,13 @@ export const Services = () => {
                 <p className="text-neutralDGrey">We have been working some Forture 500+ clients</p>
                 {/* companies logo */}'
                 <div className=" my-12 flex flex-wrap  justify-between items-center gap-8">
-                    <img src="/src/assets/logoCompany/Logocompany1.png" alt="" />
-                    <img src="/src/assets/logoCompany/Logocompany2.png" alt="" />
-                    <img src="/src/assets/logoCompany/Logocompany3.png" alt="" />
-                    <img src="/src/assets/logoCompany/Logocompany4.png" alt="" />
-                    <img src="/src/assets/logoCompany/Logocompany5.png" alt="" />
-                    <img src="/src/assets/logoCompany/Logocompany6.png" alt="" />
-                    <img src="/src/assets/logoCompany/Logocompany7.png" alt="" />
+                    <img src={Logocompany1} alt="" />
+                    <img src={Logocompany2} alt="" />
+                    <img src={Logocompany3} alt="" />
+                    <img src={Logocompany4} alt="" />
+                    <img src={Logocompany5} alt="" />
+                    <img src={Logocompany6} alt="" />
+                    <img src={Logocompany7} alt="" />
                 </div>
                 {/* services card */}
                 <div className="my-20 md:w-1/2 mx-auto text-center">
